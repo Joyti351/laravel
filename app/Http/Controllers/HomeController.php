@@ -16,4 +16,7 @@ class HomeController extends Controller
     public function how(){
         return view('slider.slider1');
     }
+    public function create(){
+        return view('slider.table.creater');
+    }
 }
