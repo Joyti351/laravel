@@ -17,6 +17,6 @@ class HomeController extends Controller
         return view('slider.slider1');
     }
     public function create(){
-        return view('slider.table.creater');
+        return view('slider.table.create');
     }
 }
