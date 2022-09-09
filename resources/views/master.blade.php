@@ -22,7 +22,7 @@
         @include('offcanvase')
         <!-- offcanvase menu area end here  -->
         <!-- slider two area start here  -->
-     @include('product')
+        @include('product')
         <!-- Product Categories area end here  -->
         <!-- offer area start here  -->
     @include('offer')

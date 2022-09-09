@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class data extends Model
+class dash-table extends Model
 {
     use HasFactory;
+    protected $guarded = '';
 }

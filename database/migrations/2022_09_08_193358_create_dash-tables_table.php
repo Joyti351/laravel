@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('data', function (Blueprint $table) {
+        Schema::create('dash-tables', function (Blueprint $table) {
             $table->id();
-            $table->string('bg_image');
-            $table->string('banner_image');
+            $table->string('bg_image')->nullable();
+            $table->string('banner_image')->nullable();
             $table->string('heading1');
             $table->string('heading2');
             $table->string('description');
@@ -32,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('data');
+        Schema::dropIfExists('dash-tables');
     }
 };
